@@ -106,7 +106,7 @@ To run this project on your local machine, follow these steps:
 
 **Raghu Sharma**  
 B.Tech CSE, 2025 Graduate  
-🔗 [LinkedIn](https://linkedin.com/in/raghusharma14)
+🔗 [LinkedIn](https://www.linkedin.com/in/raghu-sharma-58bb64239/)
 
 
 
