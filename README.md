@@ -40,7 +40,7 @@ It intelligently fetches **news**, **movie recommendations**, and supports **dar
 ## 🧩 Folder Structure
 
 
-<pre> 📁 components ├── Layout.tsx ├── NewsFeed.tsx ├── Recommendations.tsx └── SettingsPanel.tsx 📁 pages ├── index.tsx └── 📁 api └── news.ts 📁 store ├── index.ts └── preferencesSlice.ts 📁 utils ├── fetchNews.ts └── fetchTMDB.ts 📁 styles ├── globals.css └── Home.module.css 📁 public ├── next.svg ├── vercel.svg └── favicon.ico 📝 .env.local </pre>
+<pre> ### 🧩 Folder Structure ``` 📦 personalized-dashboard/ ├── components/ │ ├── Layout.tsx │ ├── NewsFeed.tsx │ ├── Recommendations.tsx │ └── SettingsPanel.tsx ├── pages/ │ ├── index.tsx │ └── api/ │ └── news.ts ├── store/ │ ├── index.ts │ └── preferencesSlice.ts ├── utils/ │ ├── fetchNews.ts │ └── fetchTMDB.ts ├── styles/ │ ├── globals.css │ └── Home.module.css ├── public/ │ ├── next.svg │ ├── vercel.svg │ └── favicon.ico ├── .env.local ├── tailwind.config.js ├── tsconfig.json └── README.md ``` </pre>
 
 
 
