@@ -62,46 +62,45 @@ It intelligently fetches **news**, **movie recommendations**, and supports **dar
 
 ## 🧪 Getting Started Locally
 
-1. Clone the repo  
+- 1. Clone the repo  
    
 git clone https://github.com/RaghuSharma14/personalized-dashboard.git
 cd personalized-dashboard
 
-
-2. Install dependencies
+- 2. Install dependencies
 npm install
 
-3. Create a .env.local file at the root with:
+- 3. Create a .env.local file at the root with:
 
 NEXT_PUBLIC_NEWS_API_KEY=your_news_api_key
 NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key
 
-4. Run the app
+- 4. Run the app
 npm run dev
 
-5. Open in browser:
+- 5. Open in browser:
 Visit: http://localhost:3000
 
 
-🧠 How It Works
+## 🧠 How It Works
 
-Categories selected in the SettingsPanel update the global Redux state.
+- Categories selected in the SettingsPanel update the global Redux state.
 
-NewsFeed fetches personalized articles using those categories via /api/news.
+- NewsFeed fetches personalized articles using those categories via /api/news.
 
-Recommendations pulls trending movies from TMDB.
+- Recommendations pulls trending movies from TMDB.
 
-Search term is debounced to reduce unnecessary API calls.
+- Search term is debounced to reduce unnecessary API calls.
 
-State is synced with Local Storage and persists on reload.
+- State is synced with Local Storage and persists on reload.
 
-🧑 Author
+## 🧑 Author
 
 Raghu Sharma
 B.Tech CSE, 2025 Graduate
 
 
-📦 Deployment
+## 📦 Deployment
 
 This project is deployed via Vercel:
 🌐 https://personalized-dashboard-7qqqw6hve-raghus-projects-1dccba79.vercel.app/
