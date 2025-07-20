@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout>
       <SettingsPanel />
-      <NewsFeed />
+      <NewsFeed searchTerm="" />
       <Recommendations />
     </Layout>
   )
