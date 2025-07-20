@@ -62,24 +62,32 @@ It intelligently fetches **news**, **movie recommendations**, and supports **dar
 
 ## 🧪 Getting Started Locally
 
-- 1. Clone the repo  
-   
-git clone https://github.com/RaghuSharma14/personalized-dashboard.git
-- cd personalized-dashboard
+To run this project on your local machine, follow these steps:
 
-- 2. Install dependencies
-- npm install
+1. **Clone the repository**
 
-- 3. Create a .env.local file at the root with:
+   - `git clone https://github.com/RaghuSharma14/personalized-dashboard.git`
+   - `cd personalized-dashboard`
+
+2. **Install dependencies**
+
+   - `npm install`
+
+3. **Create a `.env.local` file in the root folder** and add your API keys:
+
+
 
 - NEXT_PUBLIC_NEWS_API_KEY=your_news_api_key
 - NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key
 
-- 4. Run the app
-- npm run dev
+4. **Run the development server**
 
-- 5. Open in browser:
-- Visit: http://localhost:3000
+- `npm run dev`
+
+5. **Open in browser**
+
+- Visit: [http://localhost:3000](http://localhost:3000)
+
 
 
 ## 🧠 How It Works
@@ -96,8 +104,10 @@ git clone https://github.com/RaghuSharma14/personalized-dashboard.git
 
 ## 🧑 Author
 
-Raghu Sharma
-B.Tech CSE, 2025 Graduate
+**Raghu Sharma**  
+B.Tech CSE, 2025 Graduate  
+🔗 [LinkedIn](https://linkedin.com/in/raghusharma14)
+
 
 
 ## 📦 Deployment
