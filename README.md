@@ -65,21 +65,21 @@ It intelligently fetches **news**, **movie recommendations**, and supports **dar
 - 1. Clone the repo  
    
 git clone https://github.com/RaghuSharma14/personalized-dashboard.git
-cd personalized-dashboard
+- cd personalized-dashboard
 
 - 2. Install dependencies
-npm install
+- npm install
 
 - 3. Create a .env.local file at the root with:
 
-NEXT_PUBLIC_NEWS_API_KEY=your_news_api_key
-NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key
+- NEXT_PUBLIC_NEWS_API_KEY=your_news_api_key
+- NEXT_PUBLIC_TMDB_API_KEY=your_tmdb_api_key
 
 - 4. Run the app
-npm run dev
+- npm run dev
 
 - 5. Open in browser:
-Visit: http://localhost:3000
+- Visit: http://localhost:3000
 
 
 ## 🧠 How It Works
