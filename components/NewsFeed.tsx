@@ -56,7 +56,7 @@ const NewsFeed = ({ searchTerm }: { searchTerm: string }) => {
               ref={provided.innerRef}
               className="space-y-4"
             >
-              {articles.map((article, index) => (
+              {Array.isArray(articles) && articles.map((article, index) => (
                 <Draggable key={article.url} draggableId={article.url} index={index}>
                   {(provided) => (
                     <div
